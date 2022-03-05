@@ -1,0 +1,11 @@
+:root{
+    --oscuro: #522e20;
+    --claro : #f1ebd0;
+    --rosa1: #dc9a94;
+    --rosa2: #d0b999;
+    --mani: #e2b85e;
+
+}
+body{
+background-color: var(--claro);
+}
