@@ -144,8 +144,24 @@ background-position: center center;
   .formulario{
       width: 400px;
       margin: auto;
+      margin-bottom: 5rem;
   }
   .formu{
      display: flex;
      flex-direction: column;
   }
+  .formu input, select, textarea{
+    padding: 1rem;
+    font-size: 1.5 rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  button{
+    max-width: 200px;
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--claro);
+    background-color: var(--oscuro);
+    border-radius: 10px;
+  }
+ 
