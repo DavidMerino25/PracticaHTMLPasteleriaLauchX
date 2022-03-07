@@ -1,12 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Alegreya:ital,wght@0,400;1,400;1,700&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sugar Mission</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
-    <h1>POagina del cliente</h1>
+    <header class="header_banner">
+        <div class="contenedor">
+            <div class="barra no-margin">
+                <div class="logo-div">
+                    <a class="" href="index.html">
+                        <img class="no-margin logo" src="img/log.png" alt="">
+                    </a>
+                </div>
+                <nav class="navegacion">
+                    <a href="#" class="navegacion__enlace">Nosotros</a>
+                    <a href="#" class="navegacion__enlace">Sucursales</a>
+                    <a href="#" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h1 class="no-margin">
+                Disponibles Ahora en Linea
+            </h1>
+            <h3 class="no-margin">Reposteria de Otro Mundo</3>
+        </div>
+
+    </header>
+    <section>
+        <h2 class="centrar-texto">Nuestro Menú</h2>
+
+        <div class="menu">
+            <div class="sabores no-margin">
+                <div class="submenu">
+                    <h4 class="centrar-texto">Sabores</h4>
+                </div>
+                <ul class="">
+                    <li>Un solo sabor: .................. $200</li>
+                    <ul>
+                        <li>Chocolate</li>
+                        <li>Fresa</li>
+                        <li>Vainilla</li>
+                        <li>Coco</li>
+                        <li>Piña</li>
+                        <li>Cajeta</li>
+                    </ul>
+                    <li>Combinados: ..................... $300</li>
+                    <ul>
+                        <li>Chocolate - Fresa</li>
+                        <li>Fresa - Vainilla</li>
+                        <li>Naranja - Coco</li>
+                        <li>Coco - Piña</li>
+                        <li>Chocolate - Vainilla</li>
+                    </ul>
+                    <li>Espaciales: ........................ $400</li>
+                    <ul>
+                        <li>Ilusión Galáctica (Chocolate, Fresa y Vainilla)</li>
+                        <li>Asteroide (Chocolate, Ferrero y Vainilla)</li>
+                        <li>Planeta Bombon (Bombon de cafe, vainilla y cajeta)</li>
+                        <li>Misión a Marte (Fresa, Vainilla y Coco)</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="espaciales no-margin">
+                <div class="submenu">
+                    <h4 class="centrar-texto">Adornos</h4>
+                </div>
+
+                <ul class="">
+                    <li>Frutas: .......................... $20</li>
+                    <ul>
+                        <li>Mango</li>
+                        <li>Fresa</li>
+                        <li>Kiwi</li>
+                        <li>Mango</li>
+                        <li>Piña</li>
+                    </ul>
+                    <li>Fondan: ......................... $30</li>
+                    <ul>
+                        <li>Rosas</li>
+                        <li>Mariposas</li>
+                        <li>Flores</li>
+                        <li>Planetas</li>
+                        <li>Especial</li>
+                    </ul>
+                    <li>Adornos de sabores: ...... $20</li>
+                    <ul>
+                        <li>Chocolate</li>
+                        <li>Vainilla</li>
+                        <li>Fresa</li>
+                        <li>Coco</li>
+                        <li>Mango</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="centrar-texto">
+            <h4 class="no-margin">
+                Nos encontramos en Norte 4 #45 Orizaba Veracruz
+            </h4>
+            <p>Horario de Atención: Lun - Vier 8:00 am - 9:00 pm</p>
+        </div>
+        <div class="formulario">
+            <span>Si lo prefieres Ordena tu pedido ahora</span>
+            <form class="formu" action="">
+                <input type="text" placeholder="Nombre Completo">
+                <input type="number" placeholder="Número de Telefono">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Calle">
+                <label for="">Municipio</label>
+               <select name="" id="">
+                   <option value="">Orizaba</option>
+                   <option value="">Rio Blanco</option>
+                   <option value="">Mendoza</option>
+                   <option value="">Córdoba</option>
+               </select>
+                <input type="number" placeholder="# Casa">
+                <label for="">Selecciona el Sabor</label>
+                <select name="" id="">
+                    <option>Chocolate</option>
+                    <option>Fresa</option>
+                    <option>Vainilla</option>
+                    <option>Coco</option>
+                    <option>Piña</option>
+                    <option>Cajeta</option>
+                    <option>Chocolate - Fresa</option>
+                    <option>Fresa - Vainilla</option>
+                    <option>Naranja - Coco</option>
+                    <option>Coco - Piña</option>
+                    <option>Chocolate - Vainilla</option>       
+                    <option>Ilusión Galáctica</option>
+                    <option>Asteroide</option>
+                    <option>Planeta Bombon</option>
+                    <option>Misión a Marte</option>
+                </select>
+                <label for="">Primer Adorno</label>
+                <select name="" id="">
+                    
+                        <option>Mango</option>
+                        <option>Fresa</option>
+                        <option>Kiwi</option>
+                        <option>Mango</option>
+                        <option>Piña</option>
+                        <option>Rosas</option>
+                        <option>Mariposas</option>
+                        <option>Flores</option>
+                        <option>Planetas</option>
+                        <option>Especial</option>
+                        <option>Chocolate</option>
+                        <option>Vainilla</option>
+                        <option>Fresa</option>
+                        <option>Coco</option>
+                        <option>Mango</option>
+                    
+                </select>
+                <label for="">Segundo Adorno</label>
+                <select name="" id="">
+                    
+                        <option>Mango</option>
+                        <option>Fresa</option>
+                        <option>Kiwi</option>
+                        <option>Mango</option>
+                        <option>Piña</option>
+                        <option>Rosas</option>
+                        <option>Mariposas</option>
+                        <option>Flores</option>
+                        <option>Planetas</option>
+                        <option>Especial</option>
+                        <option>Chocolate</option>
+                        <option>Vainilla</option>
+                        <option>Fresa</option>
+                        <option>Coco</option>
+                        <option>Mango</option>
+                    
+                </select>
+               <textarea name="" id="" cols="30" rows="10">Información adicional</textarea>
+               <button>Comprar</button>
+            </form>
+
+        </div>
+    </section>
 </body>
+
 </html>
